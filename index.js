@@ -30,9 +30,8 @@ app.post('/service', function(req, res) {
   console.log('image data length', imageData.length);
   console.log(imageData);
 
-  var imageDataBinary = new Buffer(imageData, 'base64');
-console.log(imageDataBinary);
-kk();
+  var imageDataBinary = dataUriToBuffer(imageData);
+
   var imgBuff = readimage(imageDataBinary, function(err, imgBuff) {
 
     if(err) {
