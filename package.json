@@ -28,6 +28,8 @@
     "nconf": "^0.6.9",
     "node-dithering": "0.0.1",
     "nodemon": "^1.2.1",
-    "readimage": "^1.0.0"
+    "omggif": "^1.0.5",
+    "readimage": "^1.0.0",
+    "writegif": "^1.0.4"
   }
 }
